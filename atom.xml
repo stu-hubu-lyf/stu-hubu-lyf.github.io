@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lolico.com.cn/"/>
-  <updated>2020-03-12T10:08:11.051Z</updated>
+  <updated>2020-06-23T13:37:55.614Z</updated>
   <id>http://lolico.com.cn/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>图床</title>
+    <link href="http://lolico.com.cn/2020/06/23/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%9B%BE%E5%BA%8A/"/>
+    <id>http://lolico.com.cn/2020/06/23/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%9B%BE%E5%BA%8A/</id>
+    <published>2020-06-22T16:00:00.000Z</published>
+    <updated>2020-06-23T13:37:55.614Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://pixi-v.oss-cn-chengdu.aliyuncs.com/pixiv/G%ADWG@(@59%WJ7SZI@3{72.png" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://pixi-v.oss-cn-chengdu.aliyuncs.com/pixiv/G%ADWG@(@59%WJ7SZI@3{72.png&quot; alt&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="图床" scheme="http://lolico.com.cn/categories/%E5%9B%BE%E5%BA%8A/"/>
+    
+    
+      <category term="博客" scheme="http://lolico.com.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="hexo" scheme="http://lolico.com.cn/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>第一章</title>
