@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>个人博客小屋</title>
+  
+  
+  <link href="https://lolico.com.cn/atom.xml" rel="self"/>
+  
+  <link href="https://lolico.com.cn/"/>
+  <updated>2022-09-29T03:10:24.804Z</updated>
+  <id>https://lolico.com.cn/</id>
+  
+  <author>
+    <name>LYF</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>代码练习</title>
+    <link href="https://lolico.com.cn/2022/09/29/dai-ma-lian-xi/"/>
+    <id>https://lolico.com.cn/2022/09/29/dai-ma-lian-xi/</id>
+    <published>2022-09-28T16:00:00.000Z</published>
+    <updated>2022-09-29T03:10:24.804Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h6 id=&quot;1、计算两个整数的和&quot;&gt;&lt;a href=&quot;#1、计算两个整数的和&quot; class=&quot;headerlink&quot; title=&quot;1、计算两个整数的和&quot;&gt;&lt;/a&gt;1、计算两个整数的和&lt;/h6&gt;&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>C语言作业</title>
+    <link href="https://lolico.com.cn/2022/09/28/c-yu-yan-zuo-ye/"/>
+    <id>https://lolico.com.cn/2022/09/28/c-yu-yan-zuo-ye/</id>
+    <published>2022-09-27T16:00:00.000Z</published>
+    <updated>2022-09-29T02:55:39.247Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;一、理论题&lt;/p&gt;
+&lt;p&gt;1、计算机本身最擅长的能力是？     &lt;/p&gt;
+&lt;p&gt;​    A.推理&lt;/p&gt;
+&lt;p&gt;​    B.想像&lt;/p&gt;
+&lt;p&gt;​    C.重复&lt;/p&gt;
+&lt;p&gt;​    D.分析&lt;/p&gt;
+&lt;p&gt;2、编程语言是和计算机交谈的语言   </summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>C语言前两章知识点汇总</title>
+    <link href="https://lolico.com.cn/2022/09/28/c-yu-yan-qian-liang-zhang-zhi-shi-dian-hui-zong/"/>
+    <id>https://lolico.com.cn/2022/09/28/c-yu-yan-qian-liang-zhang-zhi-shi-dian-hui-zong/</id>
+    <published>2022-09-27T16:00:00.000Z</published>
+    <updated>2022-10-08T07:14:53.917Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;C语言前两章知识点汇总&quot;&gt;&lt;a href=&quot;#C语言前两章知识点汇总&quot; class=&quot;headerlink&quot; title=&quot;C语言前两章知识点汇总&quot;&gt;&lt;/a&gt;C语言前两章知识点汇总&lt;/h3&gt;&lt;h6 id=&quot;1、编译是什么&quot;&gt;&lt;a href=&quot;#1、编译是什么&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
