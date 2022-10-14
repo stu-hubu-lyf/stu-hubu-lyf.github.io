@@ -6,7 +6,7 @@
   <link href="https://lolico.com.cn/atom.xml" rel="self"/>
   
   <link href="https://lolico.com.cn/"/>
-  <updated>2022-09-29T03:10:24.804Z</updated>
+  <updated>2022-10-14T02:18:58.294Z</updated>
   <id>https://lolico.com.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>判断三角形的一个小例子</title>
+    <link href="https://lolico.com.cn/2022/10/14/pan-duan-san-jiao-xing-de-yi-ge-xiao-li-zi/"/>
+    <id>https://lolico.com.cn/2022/10/14/pan-duan-san-jiao-xing-de-yi-ge-xiao-li-zi/</id>
+    <published>2022-10-13T16:00:00.000Z</published>
+    <updated>2022-10-14T02:18:58.294Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>代码练习</title>
