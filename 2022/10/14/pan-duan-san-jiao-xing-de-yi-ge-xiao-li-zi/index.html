@@ -12,8 +12,8 @@ int main()
 {	
 	while(1)
 	{
-
-	printf(&#34;是否要输入带有">
+		int a,b,c;
+		do">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -395,7 +395,7 @@ int main()
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    421
+                    186
                 </div>
                 
 
@@ -427,74 +427,41 @@ int main()
 {	
 	while(1)
 	{
-
-	printf("是否要输入带有根号的数（输入4代表输入的是2，输入9代表输入的是3） 0 表示no,其余的表示yes\n");
-	int n;
-	scanf("%d",&amp;n); 
-	if(n) {
-	double a,b,c,d,e,f; 
-	printf("请输入带有根号的数字(如果想输入4，则请输入16)\n"); 
-	scanf("%lf %lf %lf",&amp;d,&amp;e,&amp;f);
-	a=sqrt(d);
-	b=sqrt(e);
-	c=sqrt(f);
-	printf("转换后的数字为%f %f %f",a,b,c);
-	if(a+b&gt;c &amp;&amp; b+c&gt;a &amp;&amp; a+c&gt;b){
-		if(a==b || b==c || c==a){
-			if(a==b &amp;&amp; b==c){
-				printf("等边三角形"); 
+		int a,b,c;
+		double d,e,f;
+		printf("请输入三角形三边个长的平方（整数）\n");
+		scanf("%d %d %d",&amp;a,&amp;b,&amp;c);
+		d=sqrt(a);
+		e=sqrt(b);
+		f=sqrt(c);
+	if(d+e&gt;f &amp;&amp; e+f&gt;d &amp;&amp; d+f&gt;e){
+		if(d==e || e==f || f==d){
+			if(d==e &amp;&amp; e==f){
+				printf("三角形为等边三角形\n"); 
 			}
-			else if(a*a+b*b-c*c&lt;0.1 || a*a+c*c-b*b&lt;0.1 || b*b+c*c-a*a&lt;0.1)
+			else if(a+b==c || a+c==b || b+c==a)
 			{
-				printf("等腰直角三角形"); 
+				printf("三角形为等腰直角三角形\n"); 
 			}
 			else {
-				printf("等腰三角形");
+				printf("三角形为等腰三角形\n");
 			}
 		} 
-		else if(a*a+b*b-c*c&lt;0.1 || a*a+c*c-b*b&lt;0.1 || b*b+c*c-a*a&lt;0.1){
-			printf("直角三角形");
+		else if(a+b==c || a+c==b || b+c==a){
+			printf("三角形为直角三角形\n");
 		} 
 		else{
-			printf("构成三角形");
+			printf("构成普通三角形\n");
 		} 
 	}
 	else{
-		printf("不构成三角形") ;
-	} 
-	}
-	else{
-		double a,b,c;
-		printf("请输入普通数字\n");
-	scanf("%lf %lf %lf",&amp;a,&amp;b,&amp;c);
-	if(a+b&gt;c &amp;&amp; b+c&gt;a &amp;&amp; a+c&gt;b){
-		if(a==b || b==c || c==a){
-			if(a==b &amp;&amp; b==c){
-				printf("等边三角形"); 
-			}
-			else if(a*a+b*b-c*c&lt;0.1 || a*a+c*c-b*b&lt;0.1 || b*b+c*c-a*a&lt;0.1)
-			{
-				printf("等腰直角三角形"); 
-			}
-			else {
-				printf("等腰三角形");
-			}
-		} 
-		else if(a*a+b*b-c*c&lt;0.1 || a*a+c*c-b*b&lt;0.1 || b*b+c*c-a*a&lt;0.1){
-			printf("直角三角形");
-		} 
-		else{
-			printf("构成三角形");
-		} 
-	}
-	else{
-		printf("不构成三角形") ;
+		printf("不构成三角形\n") ;
 	} 
 	} 
 	system("pause");
-		}
+		
 	return 0;
- } <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+ } <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
                 
             </div>
             <hr/>
@@ -1110,7 +1077,7 @@ int main()
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">2.1k</span>
+                        class="white-color">1.9k</span>
             
             
             
