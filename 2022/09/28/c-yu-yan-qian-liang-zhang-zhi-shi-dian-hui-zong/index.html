@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="C语言前两章知识点汇总, 个人博客小屋">
     <meta name="description" content="C语言前两章知识点汇总1、编译是什么​        编译：借助⼀个程序，就像⼀个翻译，把你的程序翻译成计算机真正能懂的语言（机器语言），然后这个机器语言写的程序就能直接执行了。
-​        我们编写的C语言程序是后缀名为**.cpp">
+​        我们编写的C语言程序是后缀名为 .c&amp;nb">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -388,7 +388,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    891
+                    1.2k
                 </div>
                 
 
@@ -414,16 +414,16 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h3 id="C语言前两章知识点汇总"><a href="#C语言前两章知识点汇总" class="headerlink" title="C语言前两章知识点汇总"></a>C语言前两章知识点汇总</h3><h6 id="1、编译是什么"><a href="#1、编译是什么" class="headerlink" title="1、编译是什么"></a>1、编译是什么</h6><p>​        编译：借助⼀个程序，就像⼀个翻译，把你的程序翻译成计算机真正能懂的语言（机器语言），然后这个机器语言写的程序就能直接执行了。</p>
-<p>​        我们编写的C语言程序是后缀名为**.cpp** 的文件，计算机无法直接运行（看不懂），需要编译成**.exe<strong>（可执行文件），计算机再运行.exe文件才能执行（所以我们要运行程序，要</strong>先编译再运行！**）。</p>
+<p>​        我们编写的C语言程序是后缀名为<font color="red"> .c&nbsp;</font>的文件，计算机无法直接运行（看不懂），需要编译成<font color="red">.exe</font>（可执行文件），计算机再运行.exe文件才能执行（所以我们要运行程序，要<font color="red">先编译再运行！</font>）。</p>
 <h6 id="2、程序的头和尾"><a href="#2、程序的头和尾" class="headerlink" title="2、程序的头和尾"></a>2、程序的头和尾</h6><p>​        程序的构成比较复杂，如无特殊说明，我们的程序暂时只考虑中间的主体。</p>
-<p>​        我们的程序暂时都只有“<strong>主体</strong>”部分</p>
+<p>​        我们的程序暂时都只有“<font color="red">主体</font>”部分</p>
 <p>​                            #include &lt;stdio.h&gt;</p>
 <p>​                            int main()<br>​                    {</p>
-<p>​                            <strong>主体</strong></p>
+<p>​                            <font color="red">主体</font></p>
 <p>​                            return 0;</p>
 <p>​                            }</p>
 <h6 id="3、printf函数（格式化输出函数）"><a href="#3、printf函数（格式化输出函数）" class="headerlink" title="3、printf函数（格式化输出函数）"></a>3、printf函数（格式化输出函数）</h6><p>​        例：printf(“Hello Wolrd！\n”)；</p>
-<p>​        “”里面的内容叫做“字符串”，printf会把其中的内容<strong>原封不动地输出</strong><br>​        \n表示需要在输出的结果后面 <strong>换一行</strong></p>
+<p>​        “”里面的内容叫做“字符串”，printf会把其中的内容<font color="red">原封不动地输出</font><br>​        \n表示需要在输出的结果后面 <font color="red">换一行</font></p>
 <p>​        特殊用法：%d , %f</p>
 <p>​        printf(“%d\n”,23+43);</p>
 <p>​        %d说明后面有⼀个整数要输出在这个位置上，所以结果是66</p>
@@ -432,23 +432,23 @@
 <p>​        例：int a;</p>
 <p>​                scanf(“%d”,&amp;a); 表示把用户输入的数据（整数型）放入a中</p>
 <p>​        这样一来搭配我们的printf函数，可以实现一些较为简单的输入输出功能</p>
-<p><strong>tips:</strong></p>
+<p><font color="red">tips:</font></p>
 <p>​        程序要求读入多个数字时，可以在一行输入，中间用空格分开，也可以在多行输入。</p>
-<p>​        <strong>在scanf中有多少个%d，它就等待用户输入几个整数，后面也得有多少个变量。</strong></p>
+<p>​        <font color="red">在scanf中有多少个%d，它就等待用户输入几个整数，后面也得有多少个变量。</font></p>
 <p>例：scanf(“%d %d %d”,&amp;a,&amp;b,&amp;c);    //用户输入三个整数，前面就有3个%d，后面相应的有三个变量</p>
-<h6 id="5、赋值（-）"><a href="#5、赋值（-）" class="headerlink" title="5、赋值（=）"></a>5、赋值（=）</h6><p>​        和数学不同，a=b在数学中表示关系，即a和b的值一样；而在程序设计中，<strong>a=b表示要求计算机做一个动作：</strong></p>
-<p><strong>把b的值赋予给a。</strong></p>
+<h6 id="5、赋值（-）"><a href="#5、赋值（-）" class="headerlink" title="5、赋值（=）"></a>5、赋值（=）</h6><p>​        和数学不同，a=b在数学中表示关系，即a和b的值一样；而在程序设计中，a=b表示要求计算机做一个动作：</p>
+<p><font color="red">把b的值赋予给a。</font></p>
 <p>​        例：我们想要输出与用户输入的两个数字a,b相反的值，可这样</p>
-<p>​            int a,b,temp;      //temp作为临时变量，简单理解为一个空水杯</p>
+<p>​            int a,b,temp;      <font color="aqua">//temp作为临时变量，简单理解为一个空水杯</font></p>
 <p>​            scanf(“%d %d”,&amp;a,&amp;b);</p>
-<p>​            temp = a;            //把a中的水复制一份到入临时“水杯”temp中        </p>
-<p>​            a = b;                    //把b中的水到入a中（a自己的水就没啦，变成b的<del>形状</del>了（bushi）)</p>
-<p>​            b = temp;             //再把temp中的水（a的<del>形状</del>到入b中）</p>
+<p>​            temp = a;            <font color="aqua">//把a中的水复制一份到入临时“水杯”temp中        </font></p>
+<p>​            a = b;                    <font color="aqua">//把b中的水到入a中（a自己的水就没啦，变成b的<del>形状</del>了（bushi）)</font></p>
+<p>​            b = temp;             <font color="aqua">//再把temp中的水（a的<del>形状</del>到入b中）</font></p>
 <p>这样我们就可以完成对两个变量的值进行交换了</p>
 <h6 id="6、浮点型（带有小数点）"><a href="#6、浮点型（带有小数点）" class="headerlink" title="6、浮点型（带有小数点）"></a>6、浮点型（带有小数点）</h6><p>​        10和10.0在C中是两个完全不同的数（后者是浮点数）</p>
-<p>​        <strong>两个整数运算的结果只能是整数</strong>    //在C中，10/3=3   5/2=2 只会得到整数部分 并且是向下取整</p>
-<p>​        当浮点数和整数放到一起运算时，C会将整数转换成浮点数，然后进行浮点数运算 // 10/3.0的结果是3.333333</p>
-<p>​        printf(“%f”,10/3.0);                 <strong>注意前面的%d要改为%f</strong></p>
+<p>​        <strong>两个整数运算的结果只能是整数</strong>    <font color="aqua">//在C中，10/3=3   5/2=2 只会得到整数部分 并且是向下取整</font></p>
+<p>​        当浮点数和整数放到一起运算时，C会将整数转换成浮点数，然后进行浮点数运算 <font color="aqua">// 10/3.0的结果是3.333333</font></p>
+<p>​        printf(“%f”,10/3.0);                 <font color="red">注意前面的%d要改为%f</font></p>
 <p>​        int 是定义整数类型，浮点类型一般用的是 double、float来定义</p>
 <p>至此，我们学了如下两种数据类型</p>
 <p>​        1、整数</p>
@@ -459,8 +459,60 @@
 <p>​              double</p>
 <p>​              printf(“%f”,….)</p>
 <p>​              scanf(“%lf”,….)</p>
-<h6 id="7、表达式计算"><a href="#7、表达式计算" class="headerlink" title="7、表达式计算"></a>7、表达式计算</h6><p>​        …未完待续</p>
-<p><span class="github-emoji"><span>😄</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
+<h6 id="7、表达式计算"><a href="#7、表达式计算" class="headerlink" title="7、表达式计算"></a>7、表达式计算</h6><p>优先级从高到低是：</p>
+<p>1、单目运算  例：a*+b   a*-b</p>
+<p>2、乘除和取余</p>
+<p>3、加减</p>
+<p>4、赋值</p>
+<p><font color="red">其中</font>：单目运算和赋值是自右向左，其余的为自左向右</p>
+<p>练习：</p>
+<p>10 + 9 * ((8 + 7) % 6) + 5 * 4 % 3 * 2 + 3         结果44</p>
+<p>1 + 2 + (3 + 4) * ((5 * 6 % 7 / 8) - 9) * 10          结果-627</p>
+<h6 id="8、判断"><a href="#8、判断" class="headerlink" title="8、判断"></a>8、判断</h6><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">if</span><span class="token punctuation">(</span>条件成立<span class="token punctuation">)</span><span class="token punctuation">{</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>如果条件成立，则执行括号内的程序，否则调过</p>
+<p>那么括号里面是否成立，是怎么判断的呢？</p>
+<p>1、<font color="red">关系运算</font></p>
+<p><img src="https://i0.hdslb.com/bfs/album/c38c7588703e77952e0f88558b1a52ada2d37b3b.png" alt="image-20221018104914897"></p>
+<p>关系运算的结果符合预期时，结果为整数1，否则为整数0</p>
+<p>例：printf(“%d”,5==3);    因为5！=3 所以结果为0</p>
+<p>2、<font color="red">优先级</font></p>
+<p>算数运算&gt;关系运算&gt;赋值运算</p>
+<p>而在关系运算中，==和！=的优先级比其他的还要低，并且关系运算是从左到右进行的</p>
+<p>例：printf(“%d”,7&gt;=3+4);    结果为1</p>
+<p>3、else （否则的话）</p>
+<p>和if一起搭配</p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">if</span><span class="token punctuation">(</span>A<span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+​		B
+
+<span class="token punctuation">}</span>
+
+<span class="token keyword">else</span><span class="token punctuation">{</span>
+
+​		C
+
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<p>如果A成立，则执行B，否则就执行C</p>
+<p>例：</p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">if</span><span class="token punctuation">(</span>成绩<span class="token operator">&gt;=</span><span class="token number">60</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+​		<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"成绩合格！"</span><span class="token punctuation">)</span>
+
+<span class="token punctuation">}</span>
+
+​		<span class="token keyword">else</span><span class="token punctuation">{</span>
+
+​		<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"你挂科啦！"</span><span class="token punctuation">)</span>
+
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 
                 
             </div>
@@ -872,13 +924,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/09/28/c-yu-yan-zuo-ye/">
+                <a href="/2022/09/29/dai-ma-lian-xi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="C语言作业">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="代码练习">
                         
-                        <span class="card-title">C语言作业</span>
+                        <span class="card-title">代码练习</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -889,7 +941,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-09-28
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-09-29
                         </span>
                         <span class="publish-author">
                             
@@ -906,16 +958,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/09/28/c-yu-yan-qian-liang-zhang-zhi-shi-dian-hui-zong/">
+                <a href="/2022/09/28/c-yu-yan-zuo-ye/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="C语言前两章知识点汇总">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="C语言作业">
                         
-                        <span class="card-title">C语言前两章知识点汇总</span>
+                        <span class="card-title">C语言作业</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -936,7 +988,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -1076,7 +1127,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">1.9k</span>
+                        class="white-color">2.2k</span>
             
             
             
