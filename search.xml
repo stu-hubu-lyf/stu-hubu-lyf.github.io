@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>c语言第二次作业</title>
+      <link href="/2022/10/18/c-yu-yan-zuo-ye-er/"/>
+      <url>/2022/10/18/c-yu-yan-zuo-ye-er/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>1、用if写出“计算时间差”的程序</p><p>2、比较两个整数的大小，输入两个数，程序输出大的那个数字</p><p>3、计算薪水，假设时薪为8.25元/小时，周工时小于40则按照时薪计算，周工时大于40的部分，超出的按照1.5倍时薪。</p><p>4、以下语句是否表示n属于[1,10],如果不是，那它的意思是什么？ 输出的结果又是什么？</p><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span> <span class="token number">1</span><span class="token operator">&lt;=</span>n<span class="token operator">&lt;=</span><span class="token number">10</span> <span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>5、写出程序的输出结果：</p><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">int</span> i<span class="token punctuation">,</span>j<span class="token punctuation">,</span>k<span class="token punctuation">;</span> i<span class="token operator">=</span><span class="token number">5</span><span class="token punctuation">;</span> j<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span> k<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span> <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> k<span class="token operator">&gt;</span>i<span class="token operator">&lt;</span>j<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>6、写出程序的输出结果：</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">int i,j,k;i=2;j=3;k = i*j==6;printf("%d\n", k);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>7、写出程序的输出结果：</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">int i,j,k;i=3;j=2;k=1;printf("%d", i&lt;j == j&lt;k);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>8、思考题</p><p>输入秒，程序输出x时x分x秒的形式</p><p>例：输入：7562 </p><p>​        输出为：2时6分2秒</p><p>9、输入三个数字，判断它们能否构成三角形，若是三角形则是是等腰？还是等边三角形（可以复杂一点，考虑直角三角形和等腰直角三角形的情况）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>判断三角形的一个小例子</title>
       <link href="/2022/10/14/pan-duan-san-jiao-xing-de-yi-ge-xiao-li-zi/"/>
       <url>/2022/10/14/pan-duan-san-jiao-xing-de-yi-ge-xiao-li-zi/</url>
@@ -44,8 +57,8 @@
     
     <entry>
       <title>C语言作业</title>
-      <link href="/2022/09/28/c-yu-yan-zuo-ye/"/>
-      <url>/2022/09/28/c-yu-yan-zuo-ye/</url>
+      <link href="/2022/09/28/c-yu-yan-zuo-ye-yi/"/>
+      <url>/2022/09/28/c-yu-yan-zuo-ye-yi/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>一、理论题</p><p>1、计算机本身最擅长的能力是？     </p><p>​    A.推理</p><p>​    B.想像</p><p>​    C.重复</p><p>​    D.分析</p><p>2、编程语言是和计算机交谈的语言    （判断题）</p><p>3、 计算机（CPU）可以直接运行人类编写的程序   （判断题）</p><p>4、给定：int a,b; 以下哪些scanf的使用是正确的？</p><p>​    A.scanf(“%d”, &amp;a);scanf(“%d”, &amp;b);</p><p>​    B.scanf(“%d %d”, &amp;a, &amp;b);</p><p>​    C.scanf(“%d, %d”, &amp;a, &amp;b);</p><p>​    D.scanf(“%d %d”, a, b);</p><p>5、写出以下代码执行后，t1和t2的值</p><p>​    int a=14;</p><p>​    int t1 = a++;</p><p>​    int t2 = ++a;</p><p>6、写出以下表达式的结果</p><p>​    6 + 5 / 4 - 2</p><p>​    2 + 2 * (2 * 2 - 2) % 2 / 3</p><p>​    10 + 9 * ((8 + 7) % 6) + 5 * 4 % 3 * 2 + 3 </p><p>​    1 + 2 + (3 + 4) * ((5 * 6 % 7 / 8) - 9) * 10</p><p>二、代码题</p><p>​    1、输入一个尾数不为0的四位数，输出它的逆序结果</p><p>​    例如、输入1234，则输出：4321</p><p>​    </p><p>​    2、输入两个整数，输出他们交换后的数字</p><p>​    例如 、输入32 45，则输出：45 32</p>]]></content>
       

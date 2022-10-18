@@ -6,7 +6,7 @@
   <link href="https://lolico.com.cn/atom.xml" rel="self"/>
   
   <link href="https://lolico.com.cn/"/>
-  <updated>2022-10-17T03:13:30.767Z</updated>
+  <updated>2022-10-18T08:25:21.085Z</updated>
   <id>https://lolico.com.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>c语言第二次作业</title>
+    <link href="https://lolico.com.cn/2022/10/18/c-yu-yan-zuo-ye-er/"/>
+    <id>https://lolico.com.cn/2022/10/18/c-yu-yan-zuo-ye-er/</id>
+    <published>2022-10-18T08:18:13.000Z</published>
+    <updated>2022-10-18T08:25:21.085Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>判断三角形的一个小例子</title>
@@ -81,8 +102,8 @@
   
   <entry>
     <title>C语言作业</title>
-    <link href="https://lolico.com.cn/2022/09/28/c-yu-yan-zuo-ye/"/>
-    <id>https://lolico.com.cn/2022/09/28/c-yu-yan-zuo-ye/</id>
+    <link href="https://lolico.com.cn/2022/09/28/c-yu-yan-zuo-ye-yi/"/>
+    <id>https://lolico.com.cn/2022/09/28/c-yu-yan-zuo-ye-yi/</id>
     <published>2022-09-27T16:00:00.000Z</published>
     <updated>2022-09-29T02:55:39.247Z</updated>
     
