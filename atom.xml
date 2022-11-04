@@ -6,7 +6,7 @@
   <link href="https://lolico.com.cn/atom.xml" rel="self"/>
   
   <link href="https://lolico.com.cn/"/>
-  <updated>2022-10-18T08:40:57.405Z</updated>
+  <updated>2022-11-04T03:04:01.101Z</updated>
   <id>https://lolico.com.cn/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>c语言作业（四）</title>
+    <link href="https://lolico.com.cn/2022/11/04/c-yu-yan-zuo-ye-si/"/>
+    <id>https://lolico.com.cn/2022/11/04/c-yu-yan-zuo-ye-si/</id>
+    <published>2022-11-04T02:40:13.000Z</published>
+    <updated>2022-11-04T03:04:01.101Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="C语言作业" scheme="https://lolico.com.cn/categories/C%E8%AF%AD%E8%A8%80%E4%BD%9C%E4%B8%9A/"/>
+    
+    
+    <category term="C语言" scheme="https://lolico.com.cn/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="作业" scheme="https://lolico.com.cn/tags/%E4%BD%9C%E4%B8%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>c语言作业（三）</title>
+    <link href="https://lolico.com.cn/2022/11/04/c-yu-yan-zuo-ye-san/"/>
+    <id>https://lolico.com.cn/2022/11/04/c-yu-yan-zuo-ye-san/</id>
+    <published>2022-11-04T01:40:13.000Z</published>
+    <updated>2022-11-04T03:04:14.213Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="C语言作业" scheme="https://lolico.com.cn/categories/C%E8%AF%AD%E8%A8%80%E4%BD%9C%E4%B8%9A/"/>
+    
+    
+    <category term="C语言" scheme="https://lolico.com.cn/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="作业" scheme="https://lolico.com.cn/tags/%E4%BD%9C%E4%B8%9A/"/>
+    
+  </entry>
   
   <entry>
     <title>c语言作业（二）</title>
@@ -77,7 +131,7 @@
     <link href="https://lolico.com.cn/2022/09/29/ke-tang-dai-ma-yi/"/>
     <id>https://lolico.com.cn/2022/09/29/ke-tang-dai-ma-yi/</id>
     <published>2022-09-28T16:00:00.000Z</published>
-    <updated>2022-10-18T08:42:13.424Z</updated>
+    <updated>2022-11-04T01:28:24.988Z</updated>
     
     
       
@@ -96,31 +150,6 @@
     <category term="C语言代码" scheme="https://lolico.com.cn/tags/C%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%A0%81/"/>
     
     <category term="期末上机考试资料" scheme="https://lolico.com.cn/tags/%E6%9C%9F%E6%9C%AB%E4%B8%8A%E6%9C%BA%E8%80%83%E8%AF%95%E8%B5%84%E6%96%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C语言前两章知识点汇总</title>
-    <link href="https://lolico.com.cn/2022/09/28/c-yu-yan-qian-liang-zhang-zhi-shi-dian-hui-zong/"/>
-    <id>https://lolico.com.cn/2022/09/28/c-yu-yan-qian-liang-zhang-zhi-shi-dian-hui-zong/</id>
-    <published>2022-09-27T16:00:00.000Z</published>
-    <updated>2022-10-28T01:08:35.225Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="-C语言知识点汇总" scheme="https://lolico.com.cn/categories/C%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB/"/>
-    
-    
-    <category term="-C语言 -知识点汇总" scheme="https://lolico.com.cn/tags/C%E8%AF%AD%E8%A8%80-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB/"/>
     
   </entry>
   
@@ -148,6 +177,31 @@
     <category term="C语言" scheme="https://lolico.com.cn/tags/C%E8%AF%AD%E8%A8%80/"/>
     
     <category term="作业" scheme="https://lolico.com.cn/tags/%E4%BD%9C%E4%B8%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C语言知识点汇总</title>
+    <link href="https://lolico.com.cn/2022/09/28/c-yu-yan-zhi-shi-dian-hui-zong/"/>
+    <id>https://lolico.com.cn/2022/09/28/c-yu-yan-zhi-shi-dian-hui-zong/</id>
+    <published>2022-09-27T16:00:00.000Z</published>
+    <updated>2022-11-04T03:05:46.255Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="-C语言知识点汇总" scheme="https://lolico.com.cn/categories/C%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB/"/>
+    
+    
+    <category term="-C语言 -知识点汇总" scheme="https://lolico.com.cn/tags/C%E8%AF%AD%E8%A8%80-%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB/"/>
     
   </entry>
   
